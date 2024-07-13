@@ -1,0 +1,22 @@
+{
+  "name": "telebot-vercel-template",
+  "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
+  "funding": "https://PonomareVlad.ru/donate",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vc dev",
+    "dev-with-tunnel": "npm run tunnel & npm run dev",
+    "tunnel": "cloudflared tunnel --url http://localhost:3000"
+  },
+  "dependencies": {
+    "telebot": "^1.4.1",
+    "telebot-vercel": "^1.0.1"
+  },
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "description": "[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FPonomareVlad%2FTeleVercelBot&env=TELEGRAM_BOT_TOKEN&envDescription=Telegram%20Bot%20Token%20from%20%40BotFather&project-name=telegram-bot&repo-name=telegram-bot)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": []
+}
